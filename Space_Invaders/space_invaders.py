@@ -189,5 +189,6 @@ while True:
     if bullet.ycor() > 275:
         bullet.hideturtle()
         bulletstate = "ready"
+
 while True:
     wn.update()
